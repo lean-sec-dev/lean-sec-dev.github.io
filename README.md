@@ -1,14 +1,20 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+lean-sec-dev.github.io
+====================
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+Website for leansec.dev
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo.
+## Theme
+This website uses the [Scribble theme](https://github.com/muan/scribble) from [Mu-An Chiou](https://github.com/muan).
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+## Thor Jekyll
+The script `jekyll.thor` was developed by [Jonas Forsberg](http://jonasforsberg.se/2012/12/28/create-jekyll-posts-from-the-command-line), and can be used as follows:
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+    thor jekyll:new Title of post
+
+This will create an unpublished post under _posts/ with filename:
+    
+    2014-02-20-title-of-post.md
+
+Assuming today's date is 2014/02/20
+
+Original readme can be found [here](https://github.com/raviriley/agency-jekyll-theme-starter)
